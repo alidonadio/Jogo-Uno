@@ -1,0 +1,34 @@
+body {
+  font-family: sans-serif;
+  background: #eee;
+  text-align: center;
+  padding: 20px;
+}
+
+.card {
+  display: inline-block;
+  width: 60px;
+  height: 90px;
+  margin: 5px;
+  border-radius: 8px;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 90px;
+  text-align: center;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
+.card.red { background: #e74c3c; }
+.card.green { background: #2ecc71; }
+.card.blue { background: #3498db; }
+.card.yellow { background: #f1c40f; color: black; }
+
+.hand {
+  margin-top: 20px;
+}
+
+.controls {
+  margin: 20px 0;
+}
